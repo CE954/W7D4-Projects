@@ -26,6 +26,10 @@
 		color: $dark-gray;
 	}
 
+	a:hover {
+		text-decoration: underline;
+	}
+
 	ul {
 		display: flex;
 	}
@@ -54,6 +58,7 @@
 		color: #000;
 		font-weight: normal;
 		border: none;
+		font-family: $sans-serif;
 	}
 
 	button:hover {
@@ -72,6 +77,10 @@
 
 	strong {
 		color: green;
+	}
+
+	a {
+		text-decoration: underline;
 	}
 
 }

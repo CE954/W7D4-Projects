@@ -1,7 +1,9 @@
 @use '../variables' as *;
 
 .main-nav {
-  
+  display: flex; 
+  justify-content: space-between;
+  padding: 20px 0px;
 }
 
 .left-nav > ul,
@@ -11,9 +13,13 @@
 
 .left-nav {
 
-  > ul {
-    > li {
-      
+  > ul { display: flex;
+    align-items: center;
+    > li { padding: 5px;
+      padding-right: 10px;
+      font-family: $serif;
+      font-size: 17px;
+      margin-right: 20px;
     }
   }
 
@@ -23,9 +29,10 @@
 }
 
 .right-nav  {
-  > ul {
-    > li {
-      
+  > ul { display: flex;
+    align-items: center;
+    > li { padding: 5px;
+      font-family: $sans-serif;
     }
 
     > li:last-of-type {
@@ -40,7 +47,8 @@
 
 .left-nav > ul > li:hover,
 .right-nav > ul > li:last-of-type:hover {
-  
+  color: $lightest-gray;
+  cursor: pointer;
 }
 
     

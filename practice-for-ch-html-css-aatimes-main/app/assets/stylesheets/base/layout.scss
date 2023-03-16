@@ -7,25 +7,30 @@ html {
 }
 
 body {
-	// ...
+	width: 80%;
+	margin: 0 auto; 
+	font-family: $serif;
+	font-size: 12px;
 }
 
 button {
-	// background-color:
+	background-color: rgb(32, 117, 192);
 	// border-color:
-	// color:
+	color: white;
 	// font-weight:
-	// padding:
-	// border-radius:
+	padding: 5px;
+	border-radius: 5px;
 	// transition:
-	// font-family:
+	font-family: $serif;
 	// text-transform:
 	// font-size:
 	// text-align:
+	border: none;
+	
 }
 
 button:hover {
-	// background-color:
+	background-color: gray;
 	// border-color:
 }
 
