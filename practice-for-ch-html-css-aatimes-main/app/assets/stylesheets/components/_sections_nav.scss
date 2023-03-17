@@ -1,0 +1,22 @@
+@use '../variables' as *;
+
+.section-nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+
+    li {
+        margin-right: 10px;
+    }
+
+    li:not(:last-child):hover {
+        background-color: $light-gray;
+    }
+    a {
+        text-decoration: none;
+    }
+
+    li:last-child:hover {
+        text-decoration: underline;
+    }
+}

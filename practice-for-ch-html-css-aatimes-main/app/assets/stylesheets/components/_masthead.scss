@@ -33,12 +33,20 @@
 	ul {
 		display: flex;
 	}
+
+	ul li:first-child {
+		font-weight: bold;
+	}
 }
 
 .logo {
 	max-width: 400px;
 	margin-top: 10px;
 }
+
+// .logo h1 {
+// 	font-size: 40px;
+// }
 
 .masthead-links {
 	display: flex;
@@ -47,9 +55,13 @@
 	margin-top: 10px;
 	margin-bottom: 10px;
 
-	li {
+	li:not(:last-child){
 		margin-left: 10px;
 		border-right: 1px solid $light-gray;
+	}
+
+	li:last-child {
+		margin-left: 10px;
 	}
 
 	button {
